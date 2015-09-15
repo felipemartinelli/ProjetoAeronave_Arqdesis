@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.felipe.projetoaeronave_arqdesis" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="Projeto Arqdesis" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ListaVoo"
+            android:label="@string/title_activity_lista_voo" >
+        </activity>
+        <activity
+            android:name=".ListaVooCompleto"
+            android:label="@string/title_activity_lista_voo_completo" >
+        </activity>
+        <activity
+            android:name=".detalhes_voo"
+            android:label="@string/title_activity_detalhes_voo" >
+        </activity>
+    </application>
+
+</manifest>
